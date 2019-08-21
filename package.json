@@ -1,0 +1,17 @@
+{
+  "name": "asset-versioning-demo",
+  "version": "1.0.0",
+  "description": "Example of using file content hashes for versioning",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp generateAssetHashes"
+  },
+  "author": "Jacob Stamm",
+  "license": "MIT",
+  "devDependencies": {
+    "farmhash": "^3.0.0",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0"
+  }
+}
